@@ -1,3 +1,11 @@
+#### Fork Preface
+
+This fork adds to this incredible app AdLdap access control. Created for work and it's very basic, no csrf tokens, no validation, and probably no some other stuff. Anyway, don't put it out there to the public.
+
+- Restricts access to app until logged in and to only certain users.
+- Authenticated off LDAP/Active Directory.
+- Configuration located in config folder, for assistance check the [PhpLdapTools Config Page](http://www.phpldaptools.com/reference/Main-Configuration/#yaml-configuration).
+
 Php Reports
 ===========
 

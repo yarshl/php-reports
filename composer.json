@@ -22,7 +22,8 @@
         "adodb/adodb-php": "dev-master",
         "lespoilus/spyc": "dev-master",
         "google/apiclient": "1.0.*@beta",
-        "alcaeus/mongo-php-adapter": "^1.1@dev"
+        "alcaeus/mongo-php-adapter": "^1.1@dev",
+        "ldaptools/ldaptools": "0.25.0"
     },
     "autoload": {
         "files": [

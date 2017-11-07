@@ -14,6 +14,9 @@ include 'vendor/autoload.php';
 
 //sets up autoload (looks in classes/local/, classes/, and lib/ in that order)
 require 'lib/PhpReports/PhpReports.php';
+require 'lib/PhpReports/Auth.php';
+
+Auth::check();
 
 header("Access-Control-Allow-Origin: *");
 

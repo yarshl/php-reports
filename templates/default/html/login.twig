@@ -1,0 +1,47 @@
+{% extends "html/page.twig" %}
+
+{% block navdropdown %}{% endblock %}
+{% block searchbar %}{% endblock %}
+{% block header %}<h2 class="form-signin-heading">Please sign in</h2>{% endblock %}
+
+{% block content %}
+<style>
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input {
+    margin-bottom: 10px;
+}
+
+</style>
+<div class="row">
+    <div class="col-md-3">
+        <form class="form-signin" action="login" method="post" enctype="application/x-www-form-urlencoded">
+          <label for="username" class="sr-only">Username</label>
+          <input type="text" class="form-control" placeholder="Username" name="username" required autofocus>
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" class="form-control" placeholder="Password" name="password" required>
+          <!-- <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div> -->
+          <button class="btn btn-primary" type="submit">Sign in</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

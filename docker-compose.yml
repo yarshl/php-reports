@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  app:
+    container_name: php-reports-dev
+    build: .
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "9000:80"

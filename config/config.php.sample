@@ -118,6 +118,9 @@ return array(
 	// This is called twice, once for each Twig_Environment that is used
 	'twig_init_function' => function (Twig_Environment $twig) {
 
-	}
+	},
+
+    // Limit access to only these Users
+    'users_allowed' => []
 );
 ?>

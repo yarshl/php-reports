@@ -1,5 +1,6 @@
 .idea/
 config/config.php
+config/adldap.yml
 reports/
 cache/
 classes/local/*.php

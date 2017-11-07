@@ -1,0 +1,7 @@
+domains:
+    comain:
+        domain_name: "mydomain.local"
+        base_dn: "dc=mydomain,dc=local"
+        servers: [ '127.0.0.1' ]
+        username: readonlyadmin
+        password: password
